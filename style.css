@@ -1,0 +1,222 @@
+*{
+    font-family: "EB Garamond", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li a{
+    margin: 10px;
+    font-size: 20px;
+    color: brown;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px rgb(151, 25, 25);
+    text-decoration: underline;
+
+}
+
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+
+}
+h1{
+    color:antiquewhite;
+}
+.overlay{
+    position: absolute;
+    top: 70%;
+    left: 4%;
+}
+h1:hover{
+    text-decoration: underline;
+    text-shadow: 2px 4px 6px rgb(180, 41, 129);
+}
+span{
+    color: rgb(184, 64, 138);
+    font-size: 30px;
+
+}
+#home{
+    height:800px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    background-image: url(https://thumbs.dreamstime.com/b/smile-business-man-tablet-office-social-media-pr-consultant-internet-digital-app-happy-person-employee-entrepreneur-tech-326225430.jpg
+    );
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 2px inset rgb(136, 29, 115);
+    display: flex;
+    position: absolute;
+    padding: 5px;
+    height: 60px ;
+    left:80%;
+    margin-top: 20%;
+    box-shadow: 2px 4px 6px black;
+}
+.main:hover{
+    scale: 1.05;
+}
+h3{
+    background-color: rgb(184, 36, 149);
+    text-align: center;
+    font-style: italic;
+    height: 30px;
+    padding: 2px;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+   width: 400px;
+}
+.pic h4{
+    color: rgb(113, 13, 80);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+.gallery{
+    /* box-shadow: 2px 4px 6px rgb(13, 2, 9); */
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.gallery img{
+    width: 400px;
+    margin: 5px;
+    margin-left: 30px;
+    padding: 5px;
+}
+.gallery img:hover{
+    scale: 1.05;
+}
+.gallery1 img{
+    width: 400px;
+    margin: 5px;
+    margin-left: 30px;
+    padding: 5px;
+}
+.gallery1 img:hover{
+    scale: 1.05;
+}
+.gallery1{
+    /* box-shadow: 2px 4px 6px rgb(13, 2, 9); */
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row{
+    display: flex;
+    margin: 5px;
+}
+.box{
+    width: 400px;
+    height: 700px;
+    margin: 5px;
+    border: 3px solid rgb(165, 40, 140);
+    align-items: center;
+    background:linear-gradient(to top,rgb(239, 229, 229)50%,rgb(228, 231, 179)50%);
+    background-size: 100% 200%;
+    transition: all 1.0s;
+}
+.box:hover{
+    background-position: right bottom;
+    /* drop shadow (0png images ne shadow varuthan */
+    filter: drop-shadow(3px 4px 20px black);
+}
+.box img{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+.box p{
+    text-align: justify;
+    padding: 5px;
+}
+.box h5{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(55, 26, 119);
+    text-shadow: 2px 3px 4px  black;
+}
+
+
+form
+{
+   width: 500px; 
+   margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+
+button{
+    color: beige;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.cv{
+    background-color: rgb(209, 133, 189);
+    color: black;
+    padding: 10px;
+    margin-left: 60%;
+    border-radius: 20%;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e5e0e4; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #962879; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
